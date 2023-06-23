@@ -58,7 +58,7 @@ This might look perfectly reasonable whilst the representations are the same, bu
 data class Dinosaur(val id: String, val name: String, val peopleEaten: Int)
 ```
 
-There's certain information that we'd like to store that we probably don't want to expose. By coupling our API to our database via the `Dinosaur` type, we've introduced some connascence that we'd like to get rif of. Introducing a service or translation layer that can take one representation of an entity and convert it into another is one way of reducing (though not removing) connascence of type in this way- you constrain the connascence to a "lower level", more tight-knit group of components which limits the blast radius of a type change to just those components. 
+There's certain information that we'd like to store that we probably don't want to expose. By coupling our API to our database via the `Dinosaur` type, we've introduced some connascence that we'd like to get rid of. Introducing a service or translation layer that can take one representation of an entity and convert it into another is one way of reducing (though not removing) connascence of type in this way- you constrain the connascence to a "lower level", more tight-knit group of components which limits the blast radius of a type change to just those components. 
 
 ```kotlin
 data class DinosaurModel(val id: String, val name: String)
