@@ -7,9 +7,6 @@
   </div>
   {{ .Content }}
   {{ range.Pages }}
-    <div class="summary">
-      <h2 class="summary-title"><a href="{{ .RelPermalink }}">{{ .Title }}<span class="dot">.</span></a></h2>
-      <p class="summary-description">{{ .Params.description }}</p>
-    </div>
+    {{ .Render "summary" }}
   {{ end }}
 {{ end }}
