@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -31,5 +32,6 @@ jobs:
       with:
         local-dir: ./public/
         server: ${{ secrets.FTP_SERVER }}
+        protocol: ftps
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
