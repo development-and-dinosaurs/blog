@@ -1,0 +1,19 @@
+{
+  "links": [
+    {
+      "name": "twitter",
+      "url": "https://twitter.com/tyrannoseanus",
+      "image": "images/social/twitter.svg"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/Tyrannoseanus",
+      "image": "images/social/github.svg"
+    },
+    {
+      "name": "mastodon",
+      "url": "https://mastodon.social/@Tyrannoseanus",
+      "image": "images/social/mastodon.svg"
+    }
+  ]
+}
