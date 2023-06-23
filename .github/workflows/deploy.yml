@@ -3,7 +3,7 @@ name: 🚀 Deploy website
 on:
   push:
     branches:
-      - fix-deploy
+      - main
   workflow_dispatch:
 
 jobs:
