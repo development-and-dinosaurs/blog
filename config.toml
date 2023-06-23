@@ -1,0 +1,38 @@
+baseURL = "https://hugo.developmentanddinosaurs.co.uk"
+languageCode = "en-gb"
+theme = "dinosaur"
+themesDir = "themes"
+title = "Development and Dinosaurs"
+paginate = 10
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
+[menu]
+  [[menu.item]]
+    name = "Posts"
+    identifier = "posts"
+    weight = 1
+    url = "/posts/"
+  [[menu.item]]
+    name = "Tags"
+    identifier = "tags"
+    weight = 2
+    url = "/tags/"
+  [[menu.item]]
+    name = "About"
+    identifier = "about"
+    weight = 3
+    url = "/about/"
