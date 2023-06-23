@@ -1,4 +1,4 @@
-baseURL = "https://hugo.developmentanddinosaurs.co.uk"
+baseURL = "https://developmentanddinosaurs.co.uk/"
 languageCode = "en-gb"
 theme = "dinosaur"
 themesDir = "themes"
