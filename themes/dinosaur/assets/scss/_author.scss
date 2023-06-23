@@ -1,0 +1,22 @@
+$author-image-size: 30px;
+
+.author {
+  margin: 30px 0;
+  color: var(--heading-color);
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .author-name {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  img {
+    width: $author-image-size;
+    height: $author-image-size;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid var(--highlight-color);
+  }
+}

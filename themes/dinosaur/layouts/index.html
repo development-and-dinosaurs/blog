@@ -1,0 +1,19 @@
+{{ define "body_classes" }}page-home{{ end }}
+
+{{- define "main" }}
+  <div class="intro">
+    <h1>{{ .Title }}<span class="dot">.</span></h1>
+    <div class="intro-content">{{ .Content }}</div>
+  </div>
+  {{- $pages := where .Site.RegularPages "Type" "posts" }}
+  {{- $sorted := ($pages.ByParam "date").Reverse }}
+  {{- $paginator := .Paginate $sorted }}
+  {{- range first 3 $sorted}}
+    {{- .Render "summary" }}
+  {{- end }}
+  <a class="view-more" href="/posts">More Posts</a>
+
+{{ end }}
+
+{{ define "footer_js" }}
+{{ end }}

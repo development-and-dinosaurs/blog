@@ -1,0 +1,9 @@
+<div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        {{- range .Site.Menus.item }}
+        <li class="menu-item-{{ .Name | lower }}">
+            <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+        </li>
+        {{- end}}
+    </ul>
+</div>
