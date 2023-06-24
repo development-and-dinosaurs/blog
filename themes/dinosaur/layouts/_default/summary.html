@@ -1,5 +1,7 @@
 <div class="summary">
-  {{ partial "author.html" . }}
+  {{- if or (eq .Section "post") (eq .Section "posts") }}
+    {{ partial "author.html" . }}
+  {{- end }}
   <h2 class="summary-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
   <p class="summary-description">{{ .Params.description }}</p>
 </div>
