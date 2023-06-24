@@ -2,6 +2,8 @@
 title: Connascence of Name
 date: 2023-05-09
 description: "Connascence of name is the weakest form of connascence in the static category. Connascence of name refers to when multiple components must agree on the name of a particular entity."
+image: images/posts/connascence-of-name-banner.png
+imageAltAttribute: A bad AI generated image of two dinosaurs at a conference, one has a tag that identifies him by name. Both need to agree on this name in order to communicate effectively. 
 tags:
    - connascence
 ---

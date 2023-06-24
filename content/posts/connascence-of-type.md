@@ -2,6 +2,8 @@
 title: Connascence of Type
 date: 2023-05-11
 description: "Connascence of type is the second weakest form of static connascence. Connascence of type refers to when multiple components must agree on the type of a particular entity."
+image: images/posts/connascence-of-type-banner.png
+imageAltAttribute: A bad AI generated image of two dinosaurs working at a construction site, working with tools. Both need to agree on the type of tool to use for a job, otherwise it won't get done. 
 tags:
    - connascence
 ---
