@@ -4,5 +4,5 @@
   <span class="author-divider"></span>
   <span class="author-date">{{ dateFormat "2006-01-02" .Date }}</span>
   <span class="author-divider"></span>
-  <span class="author-ttr">{{ (math.Ceil (div (countwords .Content) 250.0)) }} minute read</span>
+  <span class="author-ttr">{{ .ReadingTime }} minute read</span>
 </div>
