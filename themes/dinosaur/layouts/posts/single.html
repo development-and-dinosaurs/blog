@@ -6,7 +6,7 @@
     <div class="intro">
       <h1>{{ .Title }}<span class="dot">.</span></h1>
       {{ if .Params.image }}
-      <img alt="{{.Params.imageAltAttribute | default "Article hero image"}}" src="{{ .Params.image | relURL }}" />
+      <img alt="{{.Params.imageAltAttribute}}" src="{{ .Params.image | relURL }}" />
       {{ end }}
     </div>
     <div class="content">

@@ -2,6 +2,8 @@
 title: Code Challenges
 date: 2023-06-24
 description: "In this series of blog posts, we're going to look at code challenges and how we can best utilise them to learn new things and have a good time."
+image: images/posts/code-challenges-banner.png
+imageAltAttribute: A bad AI generated image of a miniature dinosaur jumping over a hurdle at the dinosaur agility show.
 tags:
    - code challenge
 ---

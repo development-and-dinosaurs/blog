@@ -2,6 +2,8 @@
 title: Connascence
 date: 2023-05-08
 description: "In this series of blog posts, we're going to look at how we can use connascence to help drive improvements to our process and write better code. To do this, we're going to have to understand what connascence is, what it means, and how to identify it within our codebases."
+image: images/posts/connascence-banner.png
+imageAltAttribute: A bad AI generated image of a group of dinosaurs, three of them are joined together in a peculiar manner and would be better off with a reduced amount of coupling.
 tags:
    - connascence
 ---
