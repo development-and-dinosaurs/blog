@@ -1,7 +1,5 @@
 baseURL = "https://developmentanddinosaurs.co.uk/"
 languageCode = "en-gb"
-theme = "dinosaur"
-themesDir = "themes"
 title = "Development and Dinosaurs"
 paginate = 10
 pygmentsCodeFences = true
