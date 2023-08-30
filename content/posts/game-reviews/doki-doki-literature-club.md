@@ -1,6 +1,6 @@
 ---
 title: Doki Doki Literature Club
-date: 2020-12-08
+date: 2020-11-08
 description: "The Literature Club is full of cute girls! Will you write the way into their heart? This game is not suitable for children or those who are easily disturbed."
 image: images/posts/game-reviews/doki-doki-literature-club.jpg
 imageAltAttribute: The Steam banner for Doki Doki Literature Club. 
