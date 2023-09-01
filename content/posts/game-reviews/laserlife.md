@@ -21,4 +21,4 @@ Unfortunately for a rhythm game the music wasn't all that varied or particularly
 
 The achievements were good in that most are for "do the stuff in the game", mainly unlocking the memories by completing the levels. The hardest one was collecting every memory molecule, but you can do that on easy mode which is a lot simpler, but also more dull.
 
-Overall I enjoyed the time I played Laserlife, but I'm not sure I'd recommend it to anyone unless you already think you'd enjoy it too.
+Overall I enjoyed the time I spent playing Laserlife, but I'd only recommend it if you know what you're getting into. A "rhythm game" that's more about a single experience of a story than a game you'll keep coming back to because you enjoy it. 
