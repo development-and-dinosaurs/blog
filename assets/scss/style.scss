@@ -16,6 +16,8 @@ $breakpoints: (
 );
 
 @import 'reset';
+@import 'pygments/github';
+@import 'dark';
 @import 'breakpoints';
 @import 'header';
 @import 'footer';
@@ -26,7 +28,10 @@ $breakpoints: (
 @import 'pagination';
 @import 'main-menu';
 @import 'main-menu-mobile';
-@import 'pygments/github';
+
+* {
+  scrollbar-color: var(--scrollbar-color);
+}
 
 html, body {
   box-sizing: border-box;
