@@ -32,6 +32,6 @@ After all that, this is what I've got to show for it!
 
 That's kind of a bit cool! I think it is anyway. 
 
-But the coolest bits are the ~friends~ knowledge we gain along the way - which I'll remember this time by writing it down. 
+But the coolest bits are the ~~friends~~ knowledge we gain along the way - which I'll remember this time by writing it down. 
 
 See you (me) next time. 
